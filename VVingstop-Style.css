@@ -1,0 +1,100 @@
+/*========= LAYOUT SECTION =========*/
+body {
+
+background-color: #146A34;
+margin: 0px;
+font-family: Arial Black, Georgia, serif;
+font-size: 14px;
+
+}
+
+#container
+{
+	width: 1728px;
+	margin: 0px auto;
+}
+
+#header {
+
+background-color: #FFFFFF;
+margin-left: 10px; margin-right: 10px;
+margin-top: 5px; margin-bottom: 10px;;
+height: 130px;
+border-radius: 15px;
+
+}
+
+#navbar {
+text-align: center;
+font-size: 26px;
+background-color: #FFFFFF;
+margin: 10px;
+height: 75px;
+border-radius: 15px;
+
+}
+
+.main {
+text-align: center;
+background-color: #F5F5DC;
+width: 900px;
+margin-left: 10px; margin-right: 800px;
+margin-top: 5px; margin-bottom: 10px;;
+padding: 24px;
+font-size: 25px;
+border-radius: 15px;
+}
+
+.sideright {
+text-align: center;	
+background-color: #F5F5DC;
+font-size: 25px;
+padding: 120px;
+width: 500px;
+float: right;
+border-radius: 15px;
+margin-left: 10px; margin-right: 10px;
+margin-top: 0px; margin-bottom: 10px;;
+clear: right;
+}
+
+.imagesidebar {
+width: 450px;
+float: right;
+border-radius: 15px;
+margin-left: 10px; margin-right: 165px;
+margin-top: 50px; margin-bottom: 10px;;
+clear: right;
+}
+
+.imagemain
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width:80%;
+max-height:80%;
+}
+
+
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-width:100%;
+max-height:98%;
+}
+
+/*========= HEADINGS SECTION =========*/
+
+h1{
+font-size: 200%;
+color: #146A34;
+}
+
+h2{
+font-size: 200%;
+color: #146A34;
+}
+
