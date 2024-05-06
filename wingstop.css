@@ -1,0 +1,63 @@
+* {
+  padding: 0px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px;
+  font-style: oblique;
+  font-family: "Futura Std", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.navigation a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#logoinnav a:hover {
+  border-color: black;
+  padding-left: 200px;
+}
+
+.saucyupdates {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: "Futura Std", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #d0cbab;
+}
+
+.flex1 {
+  font-family: "Futura Std", sans-serif;
+}
+
+.flex2 {
+  /* Your styles for flex2 */
+}
+
+.needahand {
+  text-align: center;
+}
