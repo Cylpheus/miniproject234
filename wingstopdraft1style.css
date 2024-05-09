@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  background-color: white;
+}
+
+.navigation a {
+  color: black;
+  text-decoration: none;
+  margin: 0 20px;
+  font-style: oblique;
+  font-family: "Futura Std", sans-serif;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.navigation a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#logoinnav a:hover {
+  border-color: black;
+  padding-left: 200px;
+}
+
+.saucyupdates {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: "Futura Std", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.slider1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #d0cbab;
+}
+
+.flex1 {
+  font-family: "Futura Std", sans-serif;
+}
+
+.flex2 {
+  /* Your styles for flex2 */
+  font-size: 24px;
+}
+
+.needahand {
+  text-align: center;
+}
+
+/* slider css starts here */
+
+/* slider css starts here */
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  background: #d0cbab; /* This is the background color of the track */
+  outline: none;
+}
+
+/* Set the color of the slider track */
+.slider::-webkit-slider-runnable-track {
+  background: #a19958; /* This changes the color of the track */
+}
+
+/* Set the color of the slider thumb */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; /* Adjust thumb width as needed */
+  height: 20px; /* Adjust thumb height as needed */
+  background: #a19958; /* This changes the color of the thumb */
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -8px; /* Adjust thumb position */
+}
+
+/* Set the color of the slider thumb for Firefox */
+.slider::-moz-range-thumb {
+  width: 20px; /* Adjust thumb width as needed */
+  height: 20px; /* Adjust thumb height as needed */
+  background: #a19958; /* This changes the color of the thumb for Firefox */
+  border-radius: 50%;
+  cursor: pointer;
+}
